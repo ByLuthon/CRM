@@ -65,6 +65,19 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+
+#pragma mark - IBACtion
+
+- (IBAction)Profile:(id)sender
+{
+    ProfileViewController *move = [self.storyboard instantiateViewControllerWithIdentifier:@"ProfileViewController"];
+    move.strUserName = @"Bhavesh Nayi";
+    move.isLoginUser = YES;
+    [self.navigationController pushViewController:move animated:YES];
+}
+
+
 #pragma mark - collectionview delegate
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
@@ -114,7 +127,6 @@
         frame.origin.y = MIN(00, MAX(-size, frame.origin.y - scrollDiff));
     }
     
-    NSLog(@"%f",frame.origin.y);
     [view_navigation setFrame:frame];
     [self updateBarButtonItems:(1 - framePercentageHidden)];
     self.previousScrollViewYOffset = scrollOffset;
@@ -141,7 +153,7 @@
         item.customView.alpha = alpha;
     }];
     
-    NSLog(@"%f",alpha);
+    //NSLog(@"%f",alpha);
     subview_navigation.alpha = alpha;
     
     //view_navigation.backgroundColor = [view_navigation.backgroundColor colorWithAlphaComponent:alpha];
@@ -291,6 +303,14 @@
         cell = [topLevelObjects objectAtIndex:0];
         cell.backgroundColor = [UIColor clearColor];
         
+        [cell.profile setOnTouchUpInside:^(UIEvent *event, id sender)
+         {
+             ProfileViewController *move = [self.storyboard instantiateViewControllerWithIdentifier:@"ProfileViewController"];
+             move.strUserName = @"Emma Watson";
+             move.isLoginUser = NO;
+             [self.navigationController pushViewController:move animated:YES];
+         }];
+        
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
 
         
@@ -312,6 +332,14 @@
         cell = [topLevelObjects objectAtIndex:0];
         cell.backgroundColor = [UIColor clearColor];
         
+        [cell.profile setOnTouchUpInside:^(UIEvent *event, id sender)
+         {
+             ProfileViewController *move = [self.storyboard instantiateViewControllerWithIdentifier:@"ProfileViewController"];
+             move.strUserName = @"Emma Watson";
+             move.isLoginUser = NO;
+             [self.navigationController pushViewController:move animated:YES];
+         }];
+
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
         
         
@@ -333,6 +361,15 @@
         cell = [topLevelObjects objectAtIndex:0];
         cell.backgroundColor = [UIColor clearColor];
         
+        [cell.profile setOnTouchUpInside:^(UIEvent *event, id sender)
+         {
+             ProfileViewController *move = [self.storyboard instantiateViewControllerWithIdentifier:@"ProfileViewController"];
+             move.strUserName = @"Emma Watson";
+             move.isLoginUser = NO;
+             [self.navigationController pushViewController:move animated:YES];
+         }];
+        
+
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
         
         
@@ -354,6 +391,15 @@
         cell = [topLevelObjects objectAtIndex:0];
         cell.backgroundColor = [UIColor clearColor];
         
+        [cell.profile setOnTouchUpInside:^(UIEvent *event, id sender)
+         {
+             ProfileViewController *move = [self.storyboard instantiateViewControllerWithIdentifier:@"ProfileViewController"];
+             move.strUserName = @"Emma Watson";
+             move.isLoginUser = NO;
+             [self.navigationController pushViewController:move animated:YES];
+         }];
+        
+
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
         
         
@@ -444,6 +490,4 @@
     }
     return cell;
 }
-
-
 @end

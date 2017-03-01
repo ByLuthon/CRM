@@ -23,6 +23,7 @@
 #import "Cell_JobsRecommended.h"
 #import "Cell_peopleYouMayKnow.h"
 #import "Cell_Recommended.h"
+#import "Cell_user.h"
 
 
 #pragma mark - Collection Cell
@@ -56,11 +57,15 @@
 #import "IQUIView+IQKeyboardToolbar.h"
 #import "FTPopOverMenu.h"
 #import "FacebookStyleBar.h"
+#import "DTParallaxTableView.h"
 
 
 
 #pragma mark -
 #pragma mark -
+//--------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------------------
 
 
