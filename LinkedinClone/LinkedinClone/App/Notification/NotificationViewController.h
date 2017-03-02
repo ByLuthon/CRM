@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Common.h"
 
 @interface NotificationViewController : UIViewController
+{
+    NSMutableArray *arrNotificationList;
+    
+    
+    __weak IBOutlet UIView *view_navigation;
+    __weak IBOutlet UIView *subview_Search;
+    __weak IBOutlet UITableView *tbl;
+}
+- (IBAction)profile:(id)sender;
 
 @end

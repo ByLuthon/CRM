@@ -11,6 +11,9 @@
 #import "MessageViewController.h"
 #import "NotificationViewController.h"
 #import "ProfileViewController.h"
+#import "InvationListingViewController.h"
+#import "ConnectionViewController.h"
+#import "FindConnectionViewController.h"
 
 
 #pragma mark - Tableview Cell
@@ -24,6 +27,14 @@
 #import "Cell_peopleYouMayKnow.h"
 #import "Cell_Recommended.h"
 #import "Cell_user.h"
+#import "Cell_Invitations.h"
+#import "Cell_InvationsPeople.h"
+#import "Cell_congratulation.h"
+#import "Cell_CongratulationAniversary.h"
+#import "Cell_IntrestedJobs.h"
+#import "Cell_HappyBirthday.h"
+#import "Cell_sharedNotification.h"
+#import "Cell_viewedProfile.h"
 
 
 #pragma mark - Collection Cell
@@ -258,12 +269,12 @@ extern GDXSync *_gdxSync;
 
 #define FONT [UIFont fontWithName:@"HelveticaNeue" size:16]
 
-#define setFont(s) [UIFont fontWithName:@"Exo2.0-Regular" size:s]
-#define setFontSemiBold(s) [UIFont fontWithName:@"Exo2.0-SemiBold" size:s]
-#define setFontMedium(s) [UIFont fontWithName:@"Exo2.0-Medium" size:s]
-#define setFontLight(s) [UIFont fontWithName:@"Exo2.0-Light" size:s]
-#define setFontItalic(s) [UIFont fontWithName:@"Exo2.0-Italic" size:s]
-#define setFontBold(s) [UIFont fontWithName:@"Exo2.0-Bold" size:s]
+#define setFont(s) [UIFont fontWithName:@"HelveticaNeue-Regular" size:s]
+#define setFontSemiBold(s) [UIFont fontWithName:@"HelveticaNeue-SemiBold" size:s]
+#define setFontMedium(s) [UIFont fontWithName:@"HelveticaNeue-Medium" size:s]
+#define setFontLight(s) [UIFont fontWithName:@"HelveticaNeue-Light" size:s]
+#define setFontItalic(s) [UIFont fontWithName:@"HelveticaNeue-Italic" size:s]
+#define setFontBold(s) [UIFont fontWithName:@"HelveticaNeue-Bold" size:s]
 
 /*
  #define setFont(s) [UIFont fontWithName:@"TitilliumWeb-Bold" size:s]

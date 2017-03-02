@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface Cell_Invitations : UITableViewCell
+{
+    
+}
+@property (weak, nonatomic) IBOutlet UIButton *profile;
 
 @end
