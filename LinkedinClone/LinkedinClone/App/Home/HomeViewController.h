@@ -22,5 +22,6 @@
 @property (weak, nonatomic) IBOutlet UITableView *tbl;
 
 - (IBAction)Profile:(id)sender;
+- (IBAction)search:(id)sender;
 
 @end

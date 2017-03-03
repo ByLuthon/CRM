@@ -199,6 +199,32 @@
 		9A93119B1E68508F00756DEB /* mutual_frnd_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A9311981E68508F00756DEB /* mutual_frnd_icon.png */; };
 		9A93119C1E68508F00756DEB /* mutual_frnd_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A9311991E68508F00756DEB /* mutual_frnd_icon@2x.png */; };
 		9A93119D1E68508F00756DEB /* mutual_frnd_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A93119A1E68508F00756DEB /* mutual_frnd_icon@3x.png */; };
+		9AB245F91E69376A007F1541 /* JobsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB245F81E69376A007F1541 /* JobsViewController.m */; };
+		9AB246011E693B3E007F1541 /* Cell_jobs.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB245FF1E693B3E007F1541 /* Cell_jobs.m */; };
+		9AB246021E693B3E007F1541 /* Cell_jobs.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AB246001E693B3E007F1541 /* Cell_jobs.xib */; };
+		9AB246061E693B5A007F1541 /* Cell_JobsCompanies.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB246041E693B5A007F1541 /* Cell_JobsCompanies.m */; };
+		9AB246071E693B5A007F1541 /* Cell_JobsCompanies.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AB246051E693B5A007F1541 /* Cell_JobsCompanies.xib */; };
+		9AB2460A1E693C6D007F1541 /* jobs-employment-sign-symbol-economy-17653833.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AB246091E693C6D007F1541 /* jobs-employment-sign-symbol-economy-17653833.jpg */; };
+		9AB2460C1E693CC1007F1541 /* 26765734-ecological-eco-button-with-a-new-jobs-symbol-on-it-and-circular-arrows-isolated-on-white-background-Stock-Photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AB2460B1E693CC1007F1541 /* 26765734-ecological-eco-button-with-a-new-jobs-symbol-on-it-and-circular-arrows-isolated-on-white-background-Stock-Photo.jpg */; };
+		9AB2460E1E693F75007F1541 /* 5e6706bac23e4508411229ee46075604.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AB2460D1E693F75007F1541 /* 5e6706bac23e4508411229ee46075604.jpg */; };
+		9AB246101E694289007F1541 /* lightbulb_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB2460F1E694289007F1541 /* lightbulb_icon.png */; };
+		9AB246141E694B22007F1541 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB246131E694B22007F1541 /* SearchViewController.m */; };
+		9AB246191E694D27007F1541 /* cross_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB246161E694D27007F1541 /* cross_cancel.png */; };
+		9AB2461A1E694D27007F1541 /* cross_cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB246171E694D27007F1541 /* cross_cancel@2x.png */; };
+		9AB2461B1E694D27007F1541 /* cross_cancel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB246181E694D27007F1541 /* cross_cancel@3x.png */; };
+		9AB246231E694F68007F1541 /* Andrew-Flintoff101.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AB246221E694F68007F1541 /* Andrew-Flintoff101.jpg */; };
+		9AB246271E695F18007F1541 /* CollectionViewCell_search.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB246251E695F18007F1541 /* CollectionViewCell_search.m */; };
+		9AB246281E695F18007F1541 /* CollectionViewCell_search.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AB246261E695F18007F1541 /* CollectionViewCell_search.xib */; };
+		9AB2462C1E696139007F1541 /* Cell_RecentSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB2462A1E696139007F1541 /* Cell_RecentSearch.m */; };
+		9AB2462D1E696139007F1541 /* Cell_RecentSearch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AB2462B1E696139007F1541 /* Cell_RecentSearch.xib */; };
+		9AB246311E69724C007F1541 /* Cell_groups.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB2462F1E69724C007F1541 /* Cell_groups.m */; };
+		9AB246321E69724C007F1541 /* Cell_groups.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AB246301E69724C007F1541 /* Cell_groups.xib */; };
+		9AB246361E69725C007F1541 /* Cell_School.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB246341E69725C007F1541 /* Cell_School.m */; };
+		9AB246371E69725C007F1541 /* Cell_School.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AB246351E69725C007F1541 /* Cell_School.xib */; };
+		9AB246391E697455007F1541 /* jixazEK6T.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB246381E697455007F1541 /* jixazEK6T.png */; };
+		9AB2463C1E697EDC007F1541 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB2463B1E697EDC007F1541 /* DetailsViewController.m */; };
+		9AB246401E6986CE007F1541 /* Cell_comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB2463E1E6986CE007F1541 /* Cell_comment.m */; };
+		9AB246411E6986CE007F1541 /* Cell_comment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AB2463F1E6986CE007F1541 /* Cell_comment.xib */; };
 		FAC4F03BBFB05CF954DCE0AC /* libPods-LinkedinClone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 026B3948000033A0004AB36E /* libPods-LinkedinClone.a */; };
 /* End PBXBuildFile section */
 
@@ -456,6 +482,42 @@
 		9A9311981E68508F00756DEB /* mutual_frnd_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mutual_frnd_icon.png; sourceTree = "<group>"; };
 		9A9311991E68508F00756DEB /* mutual_frnd_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mutual_frnd_icon@2x.png"; sourceTree = "<group>"; };
 		9A93119A1E68508F00756DEB /* mutual_frnd_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mutual_frnd_icon@3x.png"; sourceTree = "<group>"; };
+		9AB245F71E69376A007F1541 /* JobsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobsViewController.h; sourceTree = "<group>"; };
+		9AB245F81E69376A007F1541 /* JobsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobsViewController.m; sourceTree = "<group>"; };
+		9AB245FE1E693B3E007F1541 /* Cell_jobs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell_jobs.h; sourceTree = "<group>"; };
+		9AB245FF1E693B3E007F1541 /* Cell_jobs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell_jobs.m; sourceTree = "<group>"; };
+		9AB246001E693B3E007F1541 /* Cell_jobs.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell_jobs.xib; sourceTree = "<group>"; };
+		9AB246031E693B5A007F1541 /* Cell_JobsCompanies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell_JobsCompanies.h; sourceTree = "<group>"; };
+		9AB246041E693B5A007F1541 /* Cell_JobsCompanies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell_JobsCompanies.m; sourceTree = "<group>"; };
+		9AB246051E693B5A007F1541 /* Cell_JobsCompanies.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell_JobsCompanies.xib; sourceTree = "<group>"; };
+		9AB246091E693C6D007F1541 /* jobs-employment-sign-symbol-economy-17653833.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jobs-employment-sign-symbol-economy-17653833.jpg"; sourceTree = "<group>"; };
+		9AB2460B1E693CC1007F1541 /* 26765734-ecological-eco-button-with-a-new-jobs-symbol-on-it-and-circular-arrows-isolated-on-white-background-Stock-Photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "26765734-ecological-eco-button-with-a-new-jobs-symbol-on-it-and-circular-arrows-isolated-on-white-background-Stock-Photo.jpg"; sourceTree = "<group>"; };
+		9AB2460D1E693F75007F1541 /* 5e6706bac23e4508411229ee46075604.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5e6706bac23e4508411229ee46075604.jpg; sourceTree = "<group>"; };
+		9AB2460F1E694289007F1541 /* lightbulb_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightbulb_icon.png; sourceTree = "<group>"; };
+		9AB246121E694B22007F1541 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		9AB246131E694B22007F1541 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		9AB246161E694D27007F1541 /* cross_cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross_cancel.png; sourceTree = "<group>"; };
+		9AB246171E694D27007F1541 /* cross_cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross_cancel@2x.png"; sourceTree = "<group>"; };
+		9AB246181E694D27007F1541 /* cross_cancel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross_cancel@3x.png"; sourceTree = "<group>"; };
+		9AB246221E694F68007F1541 /* Andrew-Flintoff101.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Andrew-Flintoff101.jpg"; sourceTree = "<group>"; };
+		9AB246241E695F18007F1541 /* CollectionViewCell_search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell_search.h; sourceTree = "<group>"; };
+		9AB246251E695F18007F1541 /* CollectionViewCell_search.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell_search.m; sourceTree = "<group>"; };
+		9AB246261E695F18007F1541 /* CollectionViewCell_search.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell_search.xib; sourceTree = "<group>"; };
+		9AB246291E696139007F1541 /* Cell_RecentSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell_RecentSearch.h; sourceTree = "<group>"; };
+		9AB2462A1E696139007F1541 /* Cell_RecentSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell_RecentSearch.m; sourceTree = "<group>"; };
+		9AB2462B1E696139007F1541 /* Cell_RecentSearch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell_RecentSearch.xib; sourceTree = "<group>"; };
+		9AB2462E1E69724C007F1541 /* Cell_groups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell_groups.h; sourceTree = "<group>"; };
+		9AB2462F1E69724C007F1541 /* Cell_groups.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell_groups.m; sourceTree = "<group>"; };
+		9AB246301E69724C007F1541 /* Cell_groups.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell_groups.xib; sourceTree = "<group>"; };
+		9AB246331E69725C007F1541 /* Cell_School.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell_School.h; sourceTree = "<group>"; };
+		9AB246341E69725C007F1541 /* Cell_School.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell_School.m; sourceTree = "<group>"; };
+		9AB246351E69725C007F1541 /* Cell_School.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell_School.xib; sourceTree = "<group>"; };
+		9AB246381E697455007F1541 /* jixazEK6T.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jixazEK6T.png; sourceTree = "<group>"; };
+		9AB2463A1E697EDC007F1541 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		9AB2463B1E697EDC007F1541 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		9AB2463D1E6986CE007F1541 /* Cell_comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell_comment.h; sourceTree = "<group>"; };
+		9AB2463E1E6986CE007F1541 /* Cell_comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell_comment.m; sourceTree = "<group>"; };
+		9AB2463F1E6986CE007F1541 /* Cell_comment.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell_comment.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -485,10 +547,12 @@
 				9A0D00071E63FDDE006BFCBE /* AppDelegate */,
 				9A0D00081E63FDDE006BFCBE /* RootViewController */,
 				9A0D00551E642B74006BFCBE /* Login - Signup */,
+				9AB246111E694B0A007F1541 /* Search */,
 				9A0D005C1E643598006BFCBE /* Home */,
 				9A0D005E1E6435B8006BFCBE /* MyNetWork */,
 				9A0D005F1E6435D8006BFCBE /* Message */,
 				9A0D00601E6435E8006BFCBE /* Notification */,
+				9AB245F61E693750007F1541 /* Jobs */,
 				9A0D00611E6435FA006BFCBE /* Profile */,
 			);
 			path = App;
@@ -549,12 +613,14 @@
 		9A0D00121E63FE81006BFCBE /* Design */ = {
 			isa = PBXGroup;
 			children = (
+				9AB246081E693B9B007F1541 /* jobs */,
 				9A93114A1E681F8E00756DEB /* Network */,
 				9A0D00711E643765006BFCBE /* Tabbacr icon */,
 				9A0D00501E6419CC006BFCBE /* Extra */,
 				9A0D00471E6404CC006BFCBE /* Splase */,
 				9A0D00FD1E64586A006BFCBE /* home */,
 				9A4FEA631E669BE900660510 /* Profile */,
+				9AB246151E694D1D007F1541 /* Search */,
 				9A9311911E683B1A00756DEB /* Notification */,
 			);
 			path = Design;
@@ -640,6 +706,8 @@
 		9A0D00501E6419CC006BFCBE /* Extra */ = {
 			isa = PBXGroup;
 			children = (
+				9AB246221E694F68007F1541 /* Andrew-Flintoff101.jpg */,
+				9AB2460D1E693F75007F1541 /* 5e6706bac23e4508411229ee46075604.jpg */,
 				9A93113B1E67F16100756DEB /* addPeople.png */,
 				9A93113C1E67F16100756DEB /* addPeople@2x.png */,
 				9A93113D1E67F16100756DEB /* addPeople@3x.png */,
@@ -677,6 +745,8 @@
 				9A0D00D41E64447E006BFCBE /* Home cell */,
 				9A0D00621E6436BD006BFCBE /* HomeViewController.h */,
 				9A0D00631E6436BD006BFCBE /* HomeViewController.m */,
+				9AB2463A1E697EDC007F1541 /* DetailsViewController.h */,
+				9AB2463B1E697EDC007F1541 /* DetailsViewController.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -808,6 +878,9 @@
 				9A35A4EB1E6590DB00B9BDBF /* CollectionViewCell_people.h */,
 				9A35A4EC1E6590DB00B9BDBF /* CollectionViewCell_people.m */,
 				9A35A4ED1E6590DB00B9BDBF /* CollectionViewCell_people.xib */,
+				9AB2463D1E6986CE007F1541 /* Cell_comment.h */,
+				9AB2463E1E6986CE007F1541 /* Cell_comment.m */,
+				9AB2463F1E6986CE007F1541 /* Cell_comment.xib */,
 			);
 			path = "Home cell";
 			sourceTree = "<group>";
@@ -1041,6 +1114,79 @@
 			path = Notification;
 			sourceTree = "<group>";
 		};
+		9AB245F61E693750007F1541 /* Jobs */ = {
+			isa = PBXGroup;
+			children = (
+				9AB245FA1E693ADE007F1541 /* cell */,
+				9AB245F71E69376A007F1541 /* JobsViewController.h */,
+				9AB245F81E69376A007F1541 /* JobsViewController.m */,
+			);
+			path = Jobs;
+			sourceTree = "<group>";
+		};
+		9AB245FA1E693ADE007F1541 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				9AB245FE1E693B3E007F1541 /* Cell_jobs.h */,
+				9AB245FF1E693B3E007F1541 /* Cell_jobs.m */,
+				9AB246001E693B3E007F1541 /* Cell_jobs.xib */,
+				9AB246031E693B5A007F1541 /* Cell_JobsCompanies.h */,
+				9AB246041E693B5A007F1541 /* Cell_JobsCompanies.m */,
+				9AB246051E693B5A007F1541 /* Cell_JobsCompanies.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		9AB246081E693B9B007F1541 /* jobs */ = {
+			isa = PBXGroup;
+			children = (
+				9AB2460B1E693CC1007F1541 /* 26765734-ecological-eco-button-with-a-new-jobs-symbol-on-it-and-circular-arrows-isolated-on-white-background-Stock-Photo.jpg */,
+				9AB246091E693C6D007F1541 /* jobs-employment-sign-symbol-economy-17653833.jpg */,
+				9AB2460F1E694289007F1541 /* lightbulb_icon.png */,
+				9AB246381E697455007F1541 /* jixazEK6T.png */,
+			);
+			path = jobs;
+			sourceTree = "<group>";
+		};
+		9AB246111E694B0A007F1541 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				9AB2461C1E694E39007F1541 /* cell */,
+				9AB246121E694B22007F1541 /* SearchViewController.h */,
+				9AB246131E694B22007F1541 /* SearchViewController.m */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		9AB246151E694D1D007F1541 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				9AB246161E694D27007F1541 /* cross_cancel.png */,
+				9AB246171E694D27007F1541 /* cross_cancel@2x.png */,
+				9AB246181E694D27007F1541 /* cross_cancel@3x.png */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		9AB2461C1E694E39007F1541 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				9AB246241E695F18007F1541 /* CollectionViewCell_search.h */,
+				9AB246251E695F18007F1541 /* CollectionViewCell_search.m */,
+				9AB246261E695F18007F1541 /* CollectionViewCell_search.xib */,
+				9AB246291E696139007F1541 /* Cell_RecentSearch.h */,
+				9AB2462A1E696139007F1541 /* Cell_RecentSearch.m */,
+				9AB2462B1E696139007F1541 /* Cell_RecentSearch.xib */,
+				9AB2462E1E69724C007F1541 /* Cell_groups.h */,
+				9AB2462F1E69724C007F1541 /* Cell_groups.m */,
+				9AB246301E69724C007F1541 /* Cell_groups.xib */,
+				9AB246331E69725C007F1541 /* Cell_School.h */,
+				9AB246341E69725C007F1541 /* Cell_School.m */,
+				9AB246351E69725C007F1541 /* Cell_School.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
 		E825F1ADE8A6A919B7D74718 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1115,17 +1261,22 @@
 				9A0D00D31E643EC6006BFCBE /* Notification@3x.png in Resources */,
 				9A0D00B01E643765006BFCBE /* tabbar_message_center_highlighted@3x.png in Resources */,
 				9A9311381E67EDE600756DEB /* tick.png in Resources */,
+				9AB2460C1E693CC1007F1541 /* 26765734-ecological-eco-button-with-a-new-jobs-symbol-on-it-and-circular-arrows-isolated-on-white-background-Stock-Photo.jpg in Resources */,
 				9A0D00AB1E643765006BFCBE /* tabbar_message_center.png in Resources */,
 				9A93115B1E68221000756DEB /* right-arrow@2x.png in Resources */,
 				9A0D01271E6458DC006BFCBE /* dots@3x.png in Resources */,
+				9AB246281E695F18007F1541 /* CollectionViewCell_search.xib in Resources */,
+				9AB2461B1E694D27007F1541 /* cross_cancel@3x.png in Resources */,
 				9A0D00CC1E643EC6006BFCBE /* Message@2x.png in Resources */,
 				9A0D00ED1E644555006BFCBE /* Cell_TrendingPost.xib in Resources */,
 				9A9311561E68213600756DEB /* ic_calendar@3x.png in Resources */,
+				9AB2462D1E696139007F1541 /* Cell_RecentSearch.xib in Resources */,
 				9A0D01251E6458DC006BFCBE /* dots.png in Resources */,
 				9A93117E1E6831DD00756DEB /* Cell_IntrestedJobs.xib in Resources */,
 				9A9311861E6832E800756DEB /* Cell_HappyBirthday.xib in Resources */,
 				9A35A4F11E659C7100B9BDBF /* Happy-Job.jpg in Resources */,
 				9A0D01351E64629C006BFCBE /* Trending-2.jpg in Resources */,
+				9AB246231E694F68007F1541 /* Andrew-Flintoff101.jpg in Resources */,
 				9A9311681E682DDD00756DEB /* like@3x.png in Resources */,
 				9A0D00A81E643765006BFCBE /* tabbar_home_selected.png in Resources */,
 				9A0D00A51E643765006BFCBE /* tabbar_home_highlighted.png in Resources */,
@@ -1145,8 +1296,10 @@
 				9A4FEA841E66BDF300660510 /* birthday.png in Resources */,
 				9A4FEA6E1E669BF300660510 /* settingwhite@2x.png in Resources */,
 				9A0D00961E643765006BFCBE /* cameraBG.png in Resources */,
+				9AB246321E69724C007F1541 /* Cell_groups.xib in Resources */,
 				9A0D00AA1E643765006BFCBE /* tabbar_home_selected@3x.png in Resources */,
 				9A9311501E681F9700756DEB /* Contacts-icon@3x.png in Resources */,
+				9AB246071E693B5A007F1541 /* Cell_JobsCompanies.xib in Resources */,
 				9A4FEA861E66BDF300660510 /* birthday@3x.png in Resources */,
 				9A0D009A1E643765006BFCBE /* tabbar_discover@2x.png in Resources */,
 				9A0D00541E642B20006BFCBE /* splashWithoutLogo.png in Resources */,
@@ -1173,6 +1326,7 @@
 				9A0D012D1E6458DC006BFCBE /* share_icon@3x.png in Resources */,
 				9A4FEA7C1E66BD7B00660510 /* linkedin-icon@2x.png in Resources */,
 				9A45BFBB1E66FB1C0042CBDD /* Cell_InvationsPeople.xib in Resources */,
+				9AB246101E694289007F1541 /* lightbulb_icon.png in Resources */,
 				9A4FEA6B1E669BF300660510 /* back@2x.png in Resources */,
 				9A4FEA771E66AD1F00660510 /* university-icon@3x.png in Resources */,
 				9A0D01261E6458DC006BFCBE /* dots@2x.png in Resources */,
@@ -1190,6 +1344,7 @@
 				9A0D01231E6458DC006BFCBE /* comment@2x.png in Resources */,
 				9A0D00E81E64452F006BFCBE /* Cell_sharedPost.xib in Resources */,
 				9A9311401E67F16100756DEB /* addPeople@3x.png in Resources */,
+				9AB246191E694D27007F1541 /* cross_cancel.png in Resources */,
 				9A4FEA6F1E669BF300660510 /* settingwhite@3x.png in Resources */,
 				9A93115C1E68221000756DEB /* right-arrow@3x.png in Resources */,
 				9A0D00B11E643765006BFCBE /* tabbar_message_center_selected.png in Resources */,
@@ -1198,6 +1353,7 @@
 				9A0D00A21E643765006BFCBE /* tabbar_home.png in Resources */,
 				9A0D00521E6419D8006BFCBE /* MG_4273.jpg in Resources */,
 				9A0D01371E646806006BFCBE /* logo_65931457001740.jpg in Resources */,
+				9AB246391E697455007F1541 /* jixazEK6T.png in Resources */,
 				9A0D00491E6404E5006BFCBE /* splash.png in Resources */,
 				9A0D00D21E643EC6006BFCBE /* Notification@2x.png in Resources */,
 				9A0D00B21E643765006BFCBE /* tabbar_message_center_selected@2x.png in Resources */,
@@ -1210,11 +1366,13 @@
 				9A4FEA751E66AD1F00660510 /* university-icon.png in Resources */,
 				9A0D00CB1E643EC6006BFCBE /* Message.png in Resources */,
 				9A93118B1E6833A500756DEB /* Cell_sharedNotification.xib in Resources */,
+				9AB246411E6986CE007F1541 /* Cell_comment.xib in Resources */,
 				9A0D004E1E640AF0006BFCBE /* appTextIcon@2x.png in Resources */,
 				9A4FEA951E66CA8900660510 /* 46955447-background-image.png in Resources */,
 				9A0D012F1E645D2A006BFCBE /* meeting-peoples.png in Resources */,
 				9A4FEA7B1E66BD7B00660510 /* linkedin-icon.png in Resources */,
 				9A0D009D1E643765006BFCBE /* tabbar_discover_highlighted@2x.png in Resources */,
+				9AB2460E1E693F75007F1541 /* 5e6706bac23e4508411229ee46075604.jpg in Resources */,
 				9A93114F1E681F9700756DEB /* Contacts-icon@2x.png in Resources */,
 				9A0D00941E643765006BFCBE /* camera@2x.png in Resources */,
 				9A0D00F21E64462E006BFCBE /* Cell_JobsRecommended.xib in Resources */,
@@ -1227,6 +1385,7 @@
 				9A0D00981E643765006BFCBE /* cameraBG@3x.png in Resources */,
 				9A45BFB61E66FAFF0042CBDD /* Cell_Invitations.xib in Resources */,
 				9A0D00CD1E643EC6006BFCBE /* Message@3x.png in Resources */,
+				9AB2460A1E693C6D007F1541 /* jobs-employment-sign-symbol-economy-17653833.jpg in Resources */,
 				9A0D00C91E643EC6006BFCBE /* Jobs@2x.png in Resources */,
 				9A0D00D91E6444E4006BFCBE /* Cell_NormalPost.xib in Resources */,
 				9A93116E1E682F2500756DEB /* search_icon@3x.png in Resources */,
@@ -1234,10 +1393,13 @@
 				9A0D00B31E643765006BFCBE /* tabbar_message_center_selected@3x.png in Resources */,
 				9A0D00971E643765006BFCBE /* cameraBG@2x.png in Resources */,
 				9A0D012B1E6458DC006BFCBE /* share_icon.png in Resources */,
+				9AB246371E69725C007F1541 /* Cell_School.xib in Resources */,
 				9A0D00F71E644691006BFCBE /* Cell_peopleYouMayKnow.xib in Resources */,
 				9A0D00DE1E644504006BFCBE /* Cell_likedPost.xib in Resources */,
 				9A0DFFFA1E63FD8C006BFCBE /* Main.storyboard in Resources */,
+				9AB2461A1E694D27007F1541 /* cross_cancel@2x.png in Resources */,
 				9A0D012C1E6458DC006BFCBE /* share_icon@2x.png in Resources */,
+				9AB246021E693B3E007F1541 /* Cell_jobs.xib in Resources */,
 				9A0D00AE1E643765006BFCBE /* tabbar_message_center_highlighted.png in Resources */,
 				9A0D01311E645D51006BFCBE /* emptyProfilePic.png in Resources */,
 				9A9311661E682DDD00756DEB /* like.png in Resources */,
@@ -1309,19 +1471,25 @@
 				9A45BFBA1E66FB1C0042CBDD /* Cell_InvationsPeople.m in Sources */,
 				9A35A5081E65AB7700B9BDBF /* BLKFlexibleHeightBarSubviewLayoutAttributes.m in Sources */,
 				9A4FEA611E6694F600660510 /* ZFTokenField.m in Sources */,
+				9AB246061E693B5A007F1541 /* Cell_JobsCompanies.m in Sources */,
 				9A35A50B1E65AB7700B9BDBF /* UIView+BLKFlexibleHeightBarSubview.m in Sources */,
 				9A35A5061E65AB7700B9BDBF /* BLKFlexibleHeightBar.m in Sources */,
 				9A35A4EE1E6590DB00B9BDBF /* CollectionViewCell_people.m in Sources */,
+				9AB246361E69725C007F1541 /* Cell_School.m in Sources */,
 				9A93117D1E6831DD00756DEB /* Cell_IntrestedJobs.m in Sources */,
 				9A0D00281E64011E006BFCBE /* iToast.m in Sources */,
+				9AB246141E694B22007F1541 /* SearchViewController.m in Sources */,
+				9AB2462C1E696139007F1541 /* Cell_RecentSearch.m in Sources */,
 				9A9311781E6831B600756DEB /* Cell_CongratulationAniversary.m in Sources */,
 				9A4FEA9C1E66CB3D00660510 /* DTParallaxHeaderView.m in Sources */,
 				9A4FEA9D1E66CB3D00660510 /* DTParallaxTableView.m in Sources */,
 				9A9311491E68107D00756DEB /* FindConnectionViewController.m in Sources */,
 				9A4FEA621E6694F600660510 /* UIButton+EventBlocks.m in Sources */,
+				9AB246271E695F18007F1541 /* CollectionViewCell_search.m in Sources */,
 				9A0D00D81E6444E4006BFCBE /* Cell_NormalPost.m in Sources */,
 				9A35A50A1E65AB7700B9BDBF /* SquareCashStyleBehaviorDefiner.m in Sources */,
 				9A0D00311E640182006BFCBE /* JVFloatLabeledTextView.m in Sources */,
+				9AB246401E6986CE007F1541 /* Cell_comment.m in Sources */,
 				9A0D00161E63FE98006BFCBE /* GlobalGDXData.m in Sources */,
 				9A0D001E1E63FFF0006BFCBE /* CustomButton.m in Sources */,
 				9A0D00F11E64462E006BFCBE /* Cell_JobsRecommended.m in Sources */,
@@ -1342,6 +1510,7 @@
 				9A9311731E68319F00756DEB /* Cell_congratulation.m in Sources */,
 				9A0D00321E640182006BFCBE /* NSString+TextDirectionality.m in Sources */,
 				9A0D005B1E642B9C006BFCBE /* SignupViewController.m in Sources */,
+				9AB245F91E69376A007F1541 /* JobsViewController.m in Sources */,
 				9A0D00241E64005B006BFCBE /* WebService.m in Sources */,
 				9A0D00421E64022B006BFCBE /* ISEmojiView.m in Sources */,
 				9A45BFB51E66FAFF0042CBDD /* Cell_Invitations.m in Sources */,
@@ -1349,10 +1518,13 @@
 				9A9311431E67FDA100756DEB /* InvationListingViewController.m in Sources */,
 				9A35A5091E65AB7700B9BDBF /* FacebookStyleBarBehaviorDefiner.m in Sources */,
 				9A9311811E68324900756DEB /* CustomView.m in Sources */,
+				9AB246011E693B3E007F1541 /* Cell_jobs.m in Sources */,
 				9A4FEA8E1E66C26900660510 /* Cell_user.m in Sources */,
 				9A93118F1E6833DD00756DEB /* Cell_viewedProfile.m in Sources */,
+				9AB246311E69724C007F1541 /* Cell_groups.m in Sources */,
 				9A0D00461E640259006BFCBE /* GMDCircleLoader.m in Sources */,
 				9A9311461E68107300756DEB /* ConnectionViewController.m in Sources */,
+				9AB2463C1E697EDC007F1541 /* DetailsViewController.m in Sources */,
 				9A0D006D1E6436E5006BFCBE /* NotificationViewController.m in Sources */,
 				9A0D00301E640182006BFCBE /* JVFloatLabeledTextField.m in Sources */,
 				9A0D00641E6436BD006BFCBE /* HomeViewController.m in Sources */,

@@ -8,7 +8,7 @@
 
 #import "CustomView.h"
 
-IB_DESIGNABLE
+//IB_DESIGNABLE
 @implementation CustomView
 
 @dynamic borderColor,borderWidth,cornerRadius;

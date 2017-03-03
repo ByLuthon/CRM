@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "LinkedinClone/App/MyNetWork/InvationListingViewController.m"
-            timestampString = "510136268.144425"
+            filePath = "LinkedinClone/App/Search/cell/CollectionCell_searchResult.m"
+            timestampString = "510221943.923656"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
-            landmarkName = "-PeopleYouMayKnowCell:indexPath:Message:"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "-initWithFrame:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

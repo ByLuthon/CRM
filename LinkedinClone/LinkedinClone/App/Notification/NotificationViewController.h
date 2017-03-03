@@ -19,5 +19,6 @@
     __weak IBOutlet UITableView *tbl;
 }
 - (IBAction)profile:(id)sender;
+- (IBAction)search:(id)sender;
 
 @end

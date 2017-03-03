@@ -14,5 +14,6 @@
 }
 @property (weak, nonatomic) IBOutlet UIView *subview;
 @property (weak, nonatomic) IBOutlet UIButton *profile;
+@property (weak, nonatomic) IBOutlet UIButton *more;
 
 @end

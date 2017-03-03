@@ -142,27 +142,25 @@
         view_OtherUserHeader.backgroundColor = [UIColor clearColor];
         
         DTParallaxHeaderView *headerView = [[DTParallaxHeaderView alloc] initWithFrame:CGRectMake(0, 0, WIDTH, 100) withImage:[UIImage imageNamed:@"46955447-background-image.png"] withTabBar:nil];
-                
+        
         [_tbl setDTHeaderView:headerView];
         _tbl.showShadow = NO;
         
         [_tbl reloadData];
     }
     
-    
     [self.view bringSubviewToFront:view_navigation];
-
 }
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 - (IBAction)Back:(id)sender
 {
@@ -199,7 +197,7 @@
     {
         return view_OtherUserHeader.frame.size.height;
     }
-
+    
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath;
@@ -229,12 +227,13 @@
     }
     return cell;
 }
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
 {
-         ProfileViewController *move = [self.storyboard instantiateViewControllerWithIdentifier:@"ProfileViewController"];
-         move.strUserName = @"Emma Watson";
-         move.isLoginUser = NO;
-         [self.navigationController pushViewController:move animated:YES];
+    ProfileViewController *move = [self.storyboard instantiateViewControllerWithIdentifier:@"ProfileViewController"];
+    move.strUserName = @"Emma Watson";
+    move.isLoginUser = NO;
+    [self.navigationController pushViewController:move animated:YES];
 }
 
 @end

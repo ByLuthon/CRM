@@ -57,6 +57,8 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+#pragma mark - Home screen
+
 -(void)redirectHomeController
 {
     //UITabBarController *tabbar = [[UITabBarController alloc] init];
@@ -90,9 +92,9 @@
     vc4.tabBarItem.image = [UIImage imageNamed:@"Notification.png"];
     
     
-    ProfileViewController *vc5 = [storyboard instantiateViewControllerWithIdentifier:@"ProfileViewController"];
+    JobsViewController *vc5 = [storyboard instantiateViewControllerWithIdentifier:@"JobsViewController"];
     vc3.tabBarItem.tag = 5;
-    vc5.title = @"Me";
+    vc5.title = @"Jobs";
     vc5.tabBarItem.image = [UIImage imageNamed:@"Jobs.png"];
     
     UINavigationController *navC1 = [[UINavigationController alloc] initWithRootViewController:vc1];
@@ -106,8 +108,6 @@
     
     self.window.rootViewController = tabbar;
     [self.window makeKeyAndVisible];
-    
-    
 }
 #pragma mark - Set Border
 -(void)setBorderToView:(UIView *)view withBorderWidth:(float)width radious:(float)radious color:(UIColor *)bordercolor
@@ -116,6 +116,27 @@
     view.layer.borderColor = [bordercolor CGColor];
     view.layer.cornerRadius = radious;
     view.layer.masksToBounds = YES;
+}
+#pragma mark - Hide-Show Animation
+- (void)animateWithShow:(BOOL)show withView:(UIView *)animatedView
+{
+    if (show == YES)
+    {
+        animatedView.alpha = 0;
+        animatedView.hidden = NO;
+        [UIView animateWithDuration:0.3 animations:^{
+            animatedView.alpha = 1;
+        }];
+    }
+    else
+    {
+        [UIView animateWithDuration:0.3 animations:^{
+            animatedView.alpha = 0;
+        } completion: ^(BOOL finished) {
+            animatedView.alpha = 0;
+            animatedView.hidden = finished;//if animation is finished ("finished" == *YES*), then hidden = "finished" ... (aka hidden = *YES*)
+        }];
+    }
 }
 
 

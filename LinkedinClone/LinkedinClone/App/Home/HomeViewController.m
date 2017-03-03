@@ -77,6 +77,12 @@
     [self.navigationController pushViewController:move animated:YES];
 }
 
+- (IBAction)search:(id)sender
+{
+    SearchViewController *move = [self.storyboard instantiateViewControllerWithIdentifier:@"SearchViewController"];
+    [self.navigationController pushViewController:move animated:NO];
+}
+
 
 #pragma mark - collectionview delegate
 
@@ -286,7 +292,8 @@
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
 {
-
+    DetailsViewController *move = [self.storyboard instantiateViewControllerWithIdentifier:@"DetailsViewController"];
+    [self.navigationController pushViewController:move animated:YES];
 }
 
 #pragma mark - Normal Post
@@ -309,6 +316,33 @@
              move.strUserName = @"Emma Watson";
              move.isLoginUser = NO;
              [self.navigationController pushViewController:move animated:YES];
+         }];
+        
+        
+        [cell.more setOnTouchUpInside:^(UIEvent *event, id sender)
+         {
+             NSMutableArray *MenuArr = [[NSMutableArray alloc] initWithObjects:@"Share via",@"Hide this post",@"unfollow this user",@"Report this post",@"Improve my feed", nil];
+             NSMutableArray *ImagesArr = [[NSMutableArray alloc] initWithObjects:@"cross_cancel.png",@"cross_cancel.png",@"cross_cancel.png",@"cross_cancel.png",@"cross_cancel.png", nil];
+             
+
+             FTPopOverMenuConfiguration *configuration = [FTPopOverMenuConfiguration defaultConfiguration];
+             configuration.tintColor = [UIColor whiteColor];
+             configuration.textColor = [UIColor darkGrayColor];
+             configuration.menuWidth = WIDTH - 10;
+             configuration.ignoreImageOriginalColor = [UIColor grayColor];// set 'ignoreImageOriginalColor' to YES, images color will be same as textColor
+             configuration.allowRoundedArrow = NO;// Default is 'NO', if sets to 'YES', the arrow will be drawn with round corner.
+             
+             [FTPopOverMenu showForSender:cell.more
+                            withMenuArray:MenuArr
+                               imageArray:ImagesArr
+                                doneBlock:^(NSInteger selectedIndex)
+              {
+                  NSLog(@"done block. do something. selectedIndex : %ld", (long)selectedIndex);
+                  
+              } dismissBlock:^{
+                  NSLog(@"user canceled. do nothing.");
+              }];
+ 
          }];
         
         cell.selectionStyle = UITableViewCellSelectionStyleNone;

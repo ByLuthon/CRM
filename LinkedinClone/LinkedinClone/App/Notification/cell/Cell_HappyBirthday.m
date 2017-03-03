@@ -24,6 +24,9 @@
     [_subview.layer setShadowRadius:1.0];
     [_subview.layer setShadowOffset:CGSizeMake(0.8, 0.8)];
 
+    
+    [_lbl_title sizeToFit];
+
     [super awakeFromNib];
     // Initialization code
 }

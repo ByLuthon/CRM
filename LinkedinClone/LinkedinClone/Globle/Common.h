@@ -14,6 +14,10 @@
 #import "InvationListingViewController.h"
 #import "ConnectionViewController.h"
 #import "FindConnectionViewController.h"
+#import "JobsViewController.h"
+#import "SearchViewController.h"
+#import "DetailsViewController.h"
+
 
 
 #pragma mark - Tableview Cell
@@ -35,10 +39,18 @@
 #import "Cell_HappyBirthday.h"
 #import "Cell_sharedNotification.h"
 #import "Cell_viewedProfile.h"
+#import "Cell_jobs.h"
+#import "Cell_JobsCompanies.h"
+#import "Cell_RecentSearch.h"
+#import "Cell_groups.h"
+#import "Cell_School.h"
+#import "Cell_comment.h"
+
 
 
 #pragma mark - Collection Cell
 #import "CollectionViewCell_people.h"
+#import "CollectionViewCell_search.h"
 
 
 #pragma mark - CHAT SCREEN
@@ -250,12 +262,15 @@ extern GDXSync *_gdxSync;
 //--------------------------------------------------------------------------------------------------
 // Search tag
 
-#define SEARCH_Suggested         1
-#define SEARCH_SearchHistory      2
-#define SEARCH_Stories           3
-#define SEARCH_People            4
-#define SEARCH_Publication      5
-#define SEARCH_Tags             6
+#define SEARCH_RecentSearch         0
+
+#define SEARCH_Top                  1
+#define SEARCH_people               2
+#define SEARCH_jobs                 3
+#define SEARCH_posts                4
+#define SEARCH_companies            5
+#define SEARCH_groups               6
+#define SEARCH_scchool              7
 
 //--------------------------------------------------------------------------------------------------
 

@@ -21,5 +21,6 @@
 - (IBAction)profile:(id)sender;
 - (IBAction)connecions:(id)sender;
 - (IBAction)findConnections:(id)sender;
+- (IBAction)SEARCH:(id)sender;
 
 @end

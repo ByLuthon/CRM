@@ -62,6 +62,12 @@
     [self presentViewController:move animated:YES completion:nil];
 }
 
+- (IBAction)SEARCH:(id)sender
+{
+    SearchViewController *move = [self.storyboard instantiateViewControllerWithIdentifier:@"SearchViewController"];
+    [self.navigationController pushViewController:move animated:NO];
+}
+
 #pragma mark - Tableview Delegate
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {

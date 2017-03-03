@@ -13,5 +13,6 @@
     
 }
 @property (weak, nonatomic) IBOutlet UIView *subview;
+@property (weak, nonatomic) IBOutlet UILabel *lbl_title;
 
 @end
